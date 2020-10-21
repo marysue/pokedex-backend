@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "pokedex_app",
+    "password": "password",
+    "database": "pokedex",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "seederStorage": "sequelize",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "pokedex_app",
+    "password": "password",
+    "database": "pokedex_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "seederStorage": "sequelize",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "pokedex_app",
+    "password": "password",
+    "database": "pokedex_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "seederStorage": "sequelize",
+    "operatorsAliases": false
+  }
+}
